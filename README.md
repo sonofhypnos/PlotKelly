@@ -11,7 +11,7 @@ run:
 
 ``` bash
 .git clone --depth 1 --recurse-submodules https://github.com/sonofhypnos/PlotKelly
-cd plot-kelly
+cd PlotKelly
 chmod +x install.sh
 ./install.sh
 ```
