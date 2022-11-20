@@ -10,7 +10,7 @@ Only works on linux.
 run: 
 
 ``` bash
-.git clone --depth 1 --recurse-submodules https://github.com/sonofhypnos/PlotKelly
+git clone --depth 1 --recurse-submodules https://github.com/sonofhypnos/PlotKelly
 cd PlotKelly
 chmod +x install.sh
 ./install.sh
