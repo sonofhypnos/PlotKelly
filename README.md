@@ -30,6 +30,8 @@ source .venv/
 ./plot_kelly.sh https://manifold.markets/IsaacKing/will-systemic-poverty-be-eliminated 800 1 100
 ```
 
+![example](https://github.com/sonofhypnos/PyManifold/blob/main/pymanifold/readme-kelly.png)
+
 ## TODO
 
 - [ ] Add different markets?
