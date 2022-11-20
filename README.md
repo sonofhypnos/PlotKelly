@@ -31,7 +31,8 @@ Example:
 ## TODO
 
 - [ ] Add different markets?
-- [ ] add plot for regular kelly formula
+- [ ] add plot for regular kelly formulam (even though is boring/linear)
+- [ ] figure out implications that lending has on this.
 
 ## Running Tests
 
