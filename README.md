@@ -19,7 +19,7 @@ chmod +x install.sh
 ./install creates a virtualenvironment and uses poetry to install dependencies. Should work with python3.8 or greater.
 
 ## Usage
-run plot_kelly.sh and supply url, $M bankroll, upper and lower bounds crecedence percentages. 
+run plot_kelly.sh and supply url, Ṁ bankroll, upper and lower bounds crecedence percentages. 
 
 Example:
 ```python
