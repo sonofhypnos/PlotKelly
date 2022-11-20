@@ -5,7 +5,7 @@ Displays a plot on how much you should bet on a manifold market given a subjecti
 Quickly hacked together. If I am still using this in the future I might merge pull requests. 
 
 ## install
-Only probably only works on linux. 
+Only works on linux. 
 
 run: 
 
