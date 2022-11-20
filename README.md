@@ -31,6 +31,7 @@ Example:
 ## TODO
 
 - [ ] Add different markets?
+- [ ] add plot for regular kelly formula
 
 ## Running Tests
 
