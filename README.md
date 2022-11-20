@@ -16,15 +16,7 @@ chmod +x install.sh
 ./install.sh
 ```
 
-./install creates a virtualenvironment for this repo using poetry.
-Create a virtualenvironment to run 
-```
-git clone 
-python3 -m venv .venv
-source .venv/
-```
-
-## Usage
+./install creates a virtualenvironment and uses poetry to install dependencies. Should work with python3.8 or greater.
 
 run plot_kelly.sh and supply url, $M bankroll, upper and lower bounds crecedence percentages. 
 
