@@ -1,6 +1,6 @@
 # plotKelly
 
-This is just quick shell tool based on the hard work of the [PyManifold](https://github.com/bcongdon/PyManifold) project.
+This shell tool is based on the [PyManifold](https://github.com/bcongdon/PyManifold) project.
 Displays a plot on how much you should bet on a manifold market given a subjective crecedence range. The betsize is calculated through the kelly criterion. 
 Quickly hacked together. If I am still using this in the future I might merge pull requests. 
 
@@ -26,6 +26,9 @@ source .venv/
 
 ## Usage
 
+run plot_kelly.sh and supply url, $M bankroll, upper and lower bounds crecedence percentages. 
+
+Example:
 ```python
 ./plot_kelly.sh https://manifold.markets/IsaacKing/will-systemic-poverty-be-eliminated 800 1 100
 ```
