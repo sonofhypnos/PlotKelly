@@ -1,57 +1,38 @@
-# PyManifold
+# plotKelly
 
-Python API client for [Manifold Markets](https://manifold.markets).
+This is just quick shell tool based on the hard work of the [PyManifold](https://github.com/bcongdon/PyManifold) project.
+Displays a plot on how much you should bet on a manifold market given a subjective crecedence range. The betsize is calculated through the kelly criterion. 
+Quickly hacked together. If I am still using this in the future I might merge pull requests. 
 
-This is still a work in progress.
+## install
+Only probably only works on linux. 
+
+run: 
+
+``` bash
+.git clone --depth 1 --recurse-submodules https://github.com/sonofhypnos/plot-kelly
+cd plot-kelly
+chmod +x install.sh
+./install.sh
+```
+
+./install creates a virtualenvironment for this repo using poetry.
+Create a virtualenvironment to run 
+```
+git clone 
+python3 -m venv .venv
+source .venv/
+```
 
 ## Usage
 
 ```python
-from pymanifold import ManifoldClient
-
-# List markets
-client = ManifoldClient()
-markets = client.list_markets()
-
-# Get market by slug
-slug = "will-bitcoins-price-fall-below-25k"
-market = client.get_market_by_slug("will-bitcoins-price-fall-below-25k")
-
-# Get market by id
-id = "rIR6mWqaO9xKLifr6cLL"
-market = client.get_market_by_id(id)
-
-# Create a bet
-betId = client.create_bet(contractId="BxFQCoaaxBqRcnzJb1mV", amount=1, outcome="NO")
-
-# Create a market
-client = ManifoldClient(api_key=API_KEY)
-market = client.create_binary_market(
-    question="Testing Binary Market creation through API",
-    initialProb=99,
-    description="Going to resolves as N/A",
-    tags=["fun"],
-    closeTime=4102444800000,
-)
-
-# Find optimal Kelly bet
-from pymanifold.utils import kelly_calc
-
-market = client.get_market_by_slug("for-this-study-published-in-nature")
-utils.kelly_calc(
-     market = market
-     subjective_probability = 0.8
-     balance = 800
-     initial_market_probability = 0.5
-)
-
+./plot_kelly.sh https://manifold.markets/IsaacKing/will-systemic-poverty-be-eliminated 800 1 100
 ```
 
 ## TODO
 
-- [ ] Publish a version of this package to PyPI
-- [ ] Add instructions for running tests that require an API key (e.g. setting the `MANIFOLD_API_KEY` environment variable)
-- [ ] Generalize `kelly_bet` to correlated markets
+- [ ] Add different markets?
 
 ## Running Tests
 
