@@ -8,10 +8,18 @@ import matplotlib.pyplot as plt
 
 
 # parse command line arguments
-url, bankroll, lower, upper = sys.argv[1:]  # lower and upper in percent
-bankroll = int(bankroll)
-lower = int(lower)
-upper = int(upper)
+
+if len(sys.argv) < 5:
+    url, bankroll = sys.argv[1:]  # lower and upper in percent
+    bankroll = int(bankroll)
+    lower = 1
+    upper = 99
+
+else:
+    url, bankroll, lower, upper = sys.argv[1:]  # lower and upper in percent
+    bankroll = int(bankroll)
+    lower = int(lower)
+    upper = int(upper)
 
 
 # Find optimal Kelly bet
