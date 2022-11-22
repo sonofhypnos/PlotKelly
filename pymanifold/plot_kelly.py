@@ -29,7 +29,7 @@ market = client.get_market_by_url(url)
 transform = lambda bet: bet[0] if (bet[1] == "YES") else -1 * bet[0]
 []
 pd.Series(
-    [transform(kelly_calc(market, 0.01 * i, bankroll)) for i in range(lower, upper)]
+    [transform(kelly_calc(market, 0.01 * i, bankroll)) for i in range(lower, upper+1)]
 ).plot()
 plt.grid(visible=True)
 plt.xlabel("Subjective Probability in %")
