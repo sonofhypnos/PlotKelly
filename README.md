@@ -19,7 +19,7 @@ chmod +x install.sh
 ./install creates a virtualenvironment and uses poetry to install dependencies. Should work with python3.8 or greater.
 
 ## Usage
-run plot_kelly.sh and supply url, your bankroll on Manifold, upper and lower bounds crecedence percentages. 
+run plot_kelly.sh and supply url, your bankroll on Manifold, upper, lower %-bounds for the plot and crecedence percentages. 
 
 Example:
 ```python
@@ -33,6 +33,7 @@ Example:
 - [ ] Add different markets?
 - [ ] add plot for regular kelly formulam (even though is boring/linear)
 - [ ] figure out implications that lending has on this.
+- [ ] better explanation in the readme
 
 ## Running Tests
 
