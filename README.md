@@ -5,7 +5,7 @@ Displays a plot on how much you should bet on a manifold market given a subjecti
 Quickly hacked together. If I am still using this in the future I might merge pull requests.
 
 ## install
-Only works on linux. 
+Should work on linux and possibly Mac as long as git and python>=3.8 (including virtualenvironment for your python) are installed.
 
 run: 
 
@@ -16,7 +16,7 @@ chmod +x install.sh
 ./install.sh
 ```
 
-./install creates a virtualenvironment and uses poetry to install dependencies. Should work with python3.8 or greater.
+./install creates a virtualenvironment and uses poetry to install dependencies.
 
 ## Usage
 run plot_kelly.sh and supply url, your bankroll on Manifold, upper, lower %-bounds for the plot and crecedence percentages. 
