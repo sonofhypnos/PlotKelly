@@ -5,7 +5,7 @@ Displays a plot on how much you should bet on a manifold market given a subjecti
 Quickly hacked together. If I am still using this in the future I might merge pull requests.
 
 ## install
-Should work on linux and possibly Mac as long as git and python>=3.8 (including virtualenvironment for your python) are installed.
+Should work on linux and possibly macOS as long as git and python>=3.8 (including virtualenvironment for your python) are installed.
 
 run: 
 
