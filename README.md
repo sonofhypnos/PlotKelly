@@ -1,7 +1,7 @@
 # plotKelly
 
 This shell tool is based on the [PyManifold](https://github.com/bcongdon/PyManifold) project.
-Displays a plot on how much you should bet on a manifold market given a subjective crecedence range. The betsize is calculated through the kelly criterion. (If you have never heard about it, I recommend learning more about it. [Here's some random article on it I enjoyed](https://www.lesswrong.com/posts/3pjv6uDvY9sqmsnvY/kelly-bet-on-everything))
+Displays a plot on how much you should bet on a manifold market given a subjective crecedence range. The betsize is calculated through the kelly criterion. If you have never heard about it, I recommend learning more about it. [Here's some random article on it I enjoyed](https://www.lesswrong.com/posts/3pjv6uDvY9sqmsnvY/kelly-bet-on-everything).
 Quickly hacked together. If I am still using this in the future I might merge pull requests.
 
 ## install
